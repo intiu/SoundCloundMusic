@@ -109,8 +109,6 @@ namespace SoundCloundMusic
             var audioFilePath = file.FullName;
             /*pnlWaveForm.BackgroundImage = renderer.Render(audioFilePath, new AveragePeakProvider(3), myRendererSettings);
             picWv.BackgroundImage = renderer.Render(audioFilePath, new AveragePeakProvider(3), myRendererSettings2);*/
-
-
         }
 
 
