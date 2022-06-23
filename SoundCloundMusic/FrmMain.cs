@@ -105,14 +105,6 @@ namespace SoundCloundMusic
             myRendererSettings2.BottomPeakPen = new Pen(Color.FromArgb(255, 221, 186));
             myRendererSettings2.BackgroundColor = this.BackColor;
 
-
-            /*WaveFormRenderer renderer = new WaveFormRenderer();
-            String audioFilePath = file.FullName;
-            Image image = renderer.Render("",new AveragePeakProvider(3), myRendererSettings);
-            image.Save(@"C:\Users\sdkca\Desktop\mywave.png", ImageFormat.Png);
-            //string audioFilePath = file.FullName;
-            pnlWaveForm = renderer.Render(audioFilePath, new AveragePeakProvider(3), myRendererSettings);
-            picWv = renderer.Render(audioFilePath, new AveragePeakProvider(3), myRendererSettings2);*/
             var renderer = new WaveFormRenderer();
             var audioFilePath = file.FullName;
             /*pnlWaveForm.BackgroundImage = renderer.Render(audioFilePath, new AveragePeakProvider(3), myRendererSettings);
