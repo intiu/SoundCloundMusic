@@ -47,7 +47,7 @@ namespace SoundCloundMusic
                 TagLib.File f = TagLib.File.Create(fi.FullName);
                 var r = grid.Rows.Add(new object[]
                 {
-                    imageList1.Images[0],
+                    null,
                     fi.Name,                   
                     f.Tag.JoinedGenres,
                     f.Tag.JoinedAlbumArtists,
